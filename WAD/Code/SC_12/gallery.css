@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+
+.image img{
+    height: 100px;
+    width: 100px;
+}
+
+.title{
+    font-size: 3rem;
+    color: #000;
+}
+
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.gallery img:hover{
+    transform: scale(2.2);
+
+}

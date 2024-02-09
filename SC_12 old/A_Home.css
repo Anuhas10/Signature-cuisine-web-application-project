@@ -1,0 +1,67 @@
+body{
+    height: 120vh;
+    background-image:url("images/02.jpg") ;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.Previous{
+    height: 1.5rem;
+    width: 8rem;
+    background: #303b52;
+    color: bisque;
+    border: none;
+    border-radius: 4rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.Previous:hover{
+    letter-spacing: .2rem;
+    opacity: .8;
+
+}
+
+.image img{
+    height: 80px;
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 3rem;
+    color: #ffff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.sentences{
+    color: aliceblue;
+    line-height: 0rem;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.form-btn{
+    height: 2rem;
+    width: 15rem;
+    background: #303b52;
+    color: bisque;
+    border: none;
+    border-radius: 4rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.title{
+    color: #ffff;
+}
+
+.form-btn:hover{
+    letter-spacing: .05rem;
+    opacity: .9;
+}
